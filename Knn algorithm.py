@@ -1,3 +1,17 @@
+"""
+The Iris data file contains 150 patterns, the first 50 belong to class 1,
+the next 50 to class 2 and the last 50 to class 3.  Open a text file
+called training.dat and put the first 30 samples of each class into it.
+Open a text file called testing.dat and put the next 20 samples of each
+class into it.  Change class labels to 1,2, and 3 instead of
+Iris-versicolor,...etc.
+1. Use nearest neighbour algorithm and classify the 60 samples in the
+testing.dat using the data in training.dat . Find the classification
+accuracy as  Accuracy = no. classified correctly/60 * 100.
+
+2. Repeat Sl.No. 1 using kNN with k=5.
+
+"""
 import csv         
 import math
 import operator
